@@ -8,6 +8,7 @@ import PhotoPreview from "../components/PhotoPreview.jsx";
 import NutritionLabel from "../components/NutritionLabel.jsx";
 import DailyTotals from "../components/DailyTotals.jsx";
 import MealLog from "../components/MealLog.jsx";
+import nueTrackerLogo from "../assets/NT-logo-black-white.png";
 
 export default function Home() {
   const [mode, setMode] = useState("idle");
@@ -80,7 +81,7 @@ export default function Home() {
         <header className="home-header">
           <div className="nuetracker-logo">
             <img
-              src="/src/assets/NT-logo-black-white.png"
+              src={nueTrackerLogo}
               alt="NueTracker logo"
               className="nuetracker-logo-img"
               style={{ height: "150px", width: "150px" }}
