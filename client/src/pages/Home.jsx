@@ -80,7 +80,7 @@ export default function Home() {
         <header className="home-header">
           <div className="nuetracker-logo">
             <img
-              src={nueTrackerLogo}
+              src="/src/assets/NT-logo-black-white.png"
               alt="NueTracker logo"
               className="nuetracker-logo-img"
               style={{ height: "150px", width: "150px" }}
